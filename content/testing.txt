@@ -1,0 +1,20 @@
+
+
+                        HOW TO PRINT ON 2 SIDES WITHOUT MINDFUCK
+        your print out
+        +-----------+
+        |           |        filp page, as you would flip the page in book
+        |           |         don't rotate; just flip it like a book, and put it to paper input without rotating
+        |           |                 THAT'S IT!
+        |           |
+        |           |
+        |           |
+        |         <-|--
+        +-----------+ 
+
+
+        The order matter; print all EVEN pages first, re-insert; print all ODD next
+                        you get pages in order and flipped
+        
+        Even -> Odd -> File (ready)
+            EOF - End Of File
