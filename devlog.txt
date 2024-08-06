@@ -34,19 +34,15 @@ info graphics, HTML documents, markdown you name it
 restrict content to the page size, remove java-shit
 no navigation, no footer - zero bloat, only content
 
+
 DEVLOG
 I consider following medium
 ・HTML document                       +-----------------------------------------------+
 ・txt files (*we are here)  <--------- I really like the 2D freedom in raw txt files  |
 ・graphics                            |                      you can very easily do   |     
-　                                    |                        cool stuff like this  ---> [ insert cool ASCII art here ]
-　                                    +-----------------------------------------------+   [   or something like that   ]
-
-
+　                                    |                        cool stuff like this   |
+　                                    +-----------------------------------------------+
                                                                         
-
-                                                            but sure, this text placing is quite distracting
-
 Raw text is great, HTML can add extra magic
 for disabling text wrapping, links to docs
 positioning,          CENTERING                      css stuff
