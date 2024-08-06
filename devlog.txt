@@ -12,6 +12,23 @@ you hit URL, oh no client-side rendering   >     ル  <- *tried to draw a duck h
 you wait, it loads, click off all popups   ------------------------------------------------------------------
 you scroll an entire damn page down, look there it is! your `dd' command
 
+          YOU WANT THIS                   THIS IS WHAT YOU GET
+    +=====================#^x+         +=====================#^x+
+    |------------------------|         |------------------------|
+    |     `dd if=x of=y'     |         |= |  ~~~~~~~~~~   login |
+    |  ~~~ ~~~ ~~~~          |         |- |  ~~~~~~~ ~~~        |
+    |  ~~~~~~ ~~ ~~          |         |- | _____________       |
+    |                        |         |- ||cookie aye,no|      |
+    +------------------------+         +------------------------+
+                                             ~~~~ ~`dd`~ ~
+                                             ~~UNIX ~~ ~~~
+                                            +------------+
+                                            |     AD     |
+                                            +------------+
+                                            ...
+                                            your command here
+
+
 I want to experiment with a single document content
 info graphics, HTML documents, markdown you name it
 restrict content to the page size, remove java-shit
