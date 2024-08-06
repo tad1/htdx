@@ -1,0 +1,40 @@
+== 06.08.2024
+
+THE PREMISE
+htdx, yet another project created from irritation
+I search web everyday, look up for different info
+
+It feels too bloated for me
+All top 10 Google search results are either a forum thread or an article 
+say I need to create a live USB in linux   ------------------------------------------------------------------
+looking for command + flags for this one   >    ゝ¨   maybe the solution is to use different search engine? <
+you hit URL, oh no client-side rendering   >     ル  <- *tried to draw a duck here*                         <
+you wait, it loads, click off all popups   ------------------------------------------------------------------
+you scroll an entire damn page down, look there it is! your `dd' command
+
+I want to experiment with a single document content
+info graphics, HTML documents, markdown you name it
+restrict content to the page size, remove java-shit
+no navigation, no footer - zero bloat, only content
+
+DEVLOG
+I consider following medium
+・HTML document                       +-----------------------------------------------+
+・txt files (*we are here)  <--------- I really like the 2D freedom in raw txt files  |
+・graphics                            |                      you can very easily do   |     
+　                                    |                        cool stuff like this  ---> [ insert cool ASCII art here ]
+　                                    +-----------------------------------------------+   [   or something like that   ]
+
+
+                                                                        
+
+                                                            but sure, this text placing is quite distracting
+
+Raw text is great, HTML can add extra magic
+for disabling text wrapping, links to docs
+positioning,          CENTERING                      css stuff
+accessability, meta info, so you TTS won't
+repeat dash-dash-dash when listening web
+
+
+the name is htdx
