@@ -1,0 +1,7 @@
+CLI:
+`cmake --graphviz=file.dot ...`
+
+convert to svg:
+`dot -Tsvg file.dot -o graph.svg`
+
+use browser to display it

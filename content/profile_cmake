@@ -1,0 +1,6 @@
+CLI:
+`cmake --profiling-format=google-trace --profiling-output=out_file.json ...`
+
+to display:
+- about:tracing in chromium based browser
+- https://ui.perfetto.dev/
