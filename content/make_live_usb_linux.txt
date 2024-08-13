@@ -1,0 +1,8 @@
+dd if=X of=Y bs=1M
+
+if - input files
+of - output file (`/dev/sdX')
+bs=1M - block copy size (1M should be good)
+
+with accurate progress bar (slower):
+dd if=X of=Y bs=1M status=progress oflag=sync
