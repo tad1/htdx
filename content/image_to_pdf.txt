@@ -1,0 +1,6 @@
+  #imagemagic
+convert prefix-*.png out.pdf
+
+  #ocrmypdf + tesseract + tesseract-data-lang
+  #this will also optimize PDF in size
+ocrmypdf -l lang in.pdf out.pdf 
