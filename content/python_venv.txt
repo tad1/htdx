@@ -1,0 +1,4 @@
+python -m /path/to/enviroment
+source pyenv/bin/activate
+
+source pyenv/bin/activate
