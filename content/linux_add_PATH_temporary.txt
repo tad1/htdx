@@ -1,0 +1,4 @@
+    export PATH="/abolute_path:$PATH"
+
+for current path:
+    export PATH="$(pwd):$PATH"
