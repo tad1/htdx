@@ -1,4 +1,4 @@
-python -m venv /path/to/enviroment
-source pyenv/bin/activate
+python -m venv ./.venv
+source ./.venv/bin/activate
 
-source pyenv/bin/activate
+deactivate
