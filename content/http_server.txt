@@ -1,1 +1,4 @@
 python -m http.sever
+
+# or
+npx http-server /path/to/project -o -p 9999
