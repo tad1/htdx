@@ -1,0 +1,4 @@
+tesseract input output
+
+example:
+tesseract image.png stdout

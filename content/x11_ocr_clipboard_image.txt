@@ -1,0 +1,4 @@
+xclip -selection clipboard -t image/png -o | tesseract stdin stdout
+
+to redirect back to clipboard
+    xclip -selection clipboard -t image/png -o | tesseract stdin stdout | xclip -selection clipboard

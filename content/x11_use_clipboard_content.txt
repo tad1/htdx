@@ -1,0 +1,4 @@
+xclip -selection clipboard -t TARGET_TYPE -o
+
+get TARGET_TYPE from:
+xclip -selection clipboard -t TARGET -o
