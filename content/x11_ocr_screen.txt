@@ -1,0 +1,1 @@
+spectacle -brno /dev/stdout 2>/dev/null | tesseract stdin stdout | xclip -selection clipboard | xclip -selection clipboard
