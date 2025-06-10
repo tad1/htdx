@@ -1,0 +1,11 @@
+for f in *
+do
+echo "${f}"
+done
+
+you can use any glob expression:
+rec_*.wav
+
+https://tldp.org/LDP/abs/html/globbingref.html
+
+
