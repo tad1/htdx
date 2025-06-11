@@ -1,4 +1,4 @@
-python -m http.sever
+python -m http.server
 
 # or
 npx http-server /path/to/project -o -p 9999
