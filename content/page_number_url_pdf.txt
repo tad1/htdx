@@ -1,0 +1,3 @@
+#page=
+
+add #page=[page number] to the end of url of pdf
