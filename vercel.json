@@ -1,0 +1,8 @@
+{
+    "redirects": [
+      {
+        "source": "/:path",
+        "destination": "https://htdx.tad1.dev/content/:path"
+      }
+    ]
+    }
