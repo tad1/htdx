@@ -1,0 +1,10 @@
+alias alias_name=stuff
+
+
+edit `~/.bashrc` (current user); `/etc/bash.bashrc` (all users) 
+for zsh `~/.zshrc` (current user) and `/etc/zsh/zshrc` (all users)
+
+ref:
+https://zsh.sourceforge.io/Guide/zshguide02.html
+
+
