@@ -51,3 +51,22 @@ repeat dash-dash-dash when listening web
 
 
 the name is htdx
+                                          /       \
+== 27.08.2025                          ---|-------|---
+                                       | I Love ASCII |
+   I wanted to do some fun stuff       |    A R T     |  
+   I added to GitHub actions for       ----------------
+   generation of sitemap. Ctrl+F           ..but UTF art is more moe •⩊•
+   works good with a file index,
+   but not if there're more htdx
+   websites. My ultimate goal is
+   to create a part of web where
+   more people share single page      ╱|、
+   references; why to create web     (˚ˎ。7 
+   search engine if you can just     |、 ˜〵     
+   use and exploit existing ones?    じしˍ,)ノ
+
+                            
+                           
+                                
+                          
