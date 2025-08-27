@@ -1,6 +1,6 @@
 name: Generate xml sitemap
 permissions:
-  contents: read
+  contents: write
 
 on:
   push:
