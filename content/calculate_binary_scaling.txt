@@ -1,0 +1,6 @@
+numfmt --to=iec --format="%.2f"
+
+Given number of bytes gives binary (IEC units) format
+i.e. `1536870912` returns `1.44G`
+
+--to=iec-i to get `GiB`
