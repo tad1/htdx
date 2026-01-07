@@ -1,0 +1,5 @@
+
+GIMP - /
+Krita - Ctrl + Enter
+VS Code - Ctrl + Shift + P
+Sublime - Ctrl + Shift + P
