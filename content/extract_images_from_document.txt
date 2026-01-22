@@ -1,0 +1,4 @@
+pandoc --extract-media=. filename
+
+
+You can also open document as an archive, where you can find stuff. 
