@@ -8,4 +8,17 @@ rec_*.wav
 
 https://tldp.org/LDP/abs/html/globbingref.html
 
+use:
+${file%.*} (bash)
+${file:r} (zsh)
+    to remove file extension
+
+
+for example convert all `.jpg` into `.webp`
+
+for f in *.jpg
+do
+ffmpeg -i ${file} webp/${file:r}.webp
+done
+
 
