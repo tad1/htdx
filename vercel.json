@@ -3,17 +3,10 @@
     {
       "source": "/",
       "destination": "https://htdx.tad1.dev/content/"
-    }
-  ],
-    "headers": [
-    {
-      "source": "/content/",
-      "headers": [
-        {
-          "key": "Link",
-          "value": "</osd.xml>; rel=\"search\"; type=\"application/opensearchdescription+xml\""
-        }
-      ]
+    }, {
+      "source": "/content/:path(.*)%20",
+      "destination": "/content/:path",
+      "permanent": true
     }
   ]
 }

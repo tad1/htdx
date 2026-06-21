@@ -61,7 +61,7 @@ export async function GET(request) {
 
   // 4. Execute the search
   // Here we use fuzzy search, allowing a maximum edit distance of 0.2 * query length
-  const results = miniSearch.search(query, { fuzzy: 0.2 }).slice(0,6).map((res)=> res.id);
+  const results = miniSearch.search(query, { fuzzy: 0.2 }).slice(0,6).map((res)=> `${res.id} `);
 
   // 5. Return the search results as JSON
   return new Response(JSON.stringify([query,results]), {
