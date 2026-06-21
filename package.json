@@ -1,0 +1,12 @@
+{
+  "name": "htdx",
+  "version": "1.0.0",
+  "description": "a collection of minimal single-screen refferences on how to do tasks",
+  "repository": "https://github.com/tad1/htdx",
+  "author": "git@tad1.dev",
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "minisearch": "^7.2.0"
+  }
+}

@@ -1,8 +1,19 @@
 {
-    "redirects": [
-      {
-        "source": "/",
-        "destination": "https://htdx.tad1.dev/content/"
-      }
-    ]
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://htdx.tad1.dev/content/"
     }
+  ],
+    "headers": [
+    {
+      "source": "/content/",
+      "headers": [
+        {
+          "key": "Link",
+          "value": "</osd.xml>; rel=\"search\"; type=\"application/opensearchdescription+xml\""
+        }
+      ]
+    }
+  ]
+}
