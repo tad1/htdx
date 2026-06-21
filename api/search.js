@@ -66,6 +66,6 @@ export async function GET(request) {
   // 5. Return the search results as JSON
   return new Response(JSON.stringify([query,results]), {
     status: 200,
-    headers: { 'Content-Type': 'application/json' },
+    headers: { 'Content-Type': 'application/json',     'Access-Control-Allow-Origin': '*' },
   });
 }
