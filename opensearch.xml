@@ -4,5 +4,5 @@
   <Description>a collection of minimal single-screen refferences on how to do tasks</Description>
   <InputEncoding>UTF-8</InputEncoding>
     <Url type="text/html" template="https://htdx.tad1.dev/content/{searchTerms}"/>
-    <Url type="application/x-suggestions+json" template="https://htdx.tad1.dev/api/search?q={searchTerms}"/>
+    <Url type="application/json" rel="suggestions" template="https://htdx.tad1.dev/api/search?q={searchTerms}" />
 </OpenSearchDescription>
