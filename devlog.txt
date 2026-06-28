@@ -61,12 +61,31 @@ the name is htdx
    but not if there're more htdx
    websites. My ultimate goal is
    to create a part of web where
-   more people share single page      ╱|、
-   references; why to create web     (˚ˎ。7 
-   search engine if you can just     |、 ˜〵     
-   use and exploit existing ones?    じしˍ,)ノ
-
-                            
-                           
-                                
-                          
+   more people share single page      ╱|、                                             A collection of single screen references.
+   references; why to create web     (˚ˎ。7                        　　                        _   _ _____________   __
+   search engine if you can just     |、 ˜〵                   　                             | | | |_   _|  _  \ \ / / 
+   use and exploit existing ones?    じしˍ,)ノ                                                | |_| | | | | | | |\ V / 
+                                                                                             |  _  | | | | | | |/   \ 
+== 20.06.2026                                                                                | | | | | | | |/ // /^\ \
+                                             After writing this                              \_| |_/ \_/ |___/ \/   \/
+   I need a better search method             press TAB to query                                     H̲ow t̲o d̲o X̲. 
+   Spent time to make a CLI tool        ╭──────────┼──────────────────────╮             
+   It works offline, and it uses        │ $ htdx "ocr                     │  
+   a full text-search. 'Tis nice       🮣┤ ocr_image.txt  𝐢𝐦𝐚𝐠𝐞_𝐭𝐨_𝐩𝐝𝐟.𝐭𝐱𝐭 │  
+   and ergonomic to use. It uses       🯗╰────────────────────────┼────────╯
+   ZSH completions: look at this ○————🯑                    Here you get suggestions
+   TUI was overcomplicated to do                           TAB to cycle though them 
+   CLI was simple and easy to do                           ENTER shows selected one 
+                                                           
+== 21.06.2026                           
+                                                  @htdx is treated     
+   I need a better search method                  as search engine          「 htdx.tad1.dev/content/add_htdx_to_browser.html 」
+   CLI is offline, now do online        ╭──────────────┼──────────────────╮
+   I've Added OpenSearch support  🯁🯂🯃   │ ⬅ ➡ ⟳ |⌕| @htdx ocr           ➡ |
+   with a full-text query in URL        ├─────────────────────────────────┤
+                                        │   ⌕ 𝐢𝐦𝐚𝐠𝐞_𝐭𝐨_𝐩𝐝𝐟.𝐭𝐱𝐭            |  A small server returns
+                                        │   ⌕ 𝐜𝐨𝐦𝐩𝐫𝐞𝐬𝐬_𝐨𝐩𝐭𝐢𝐦𝐢𝐳𝐞_𝐩𝐝𝐟.𝐭𝐱𝐭   ┼  full-text query result
+                                        │   ⌕ 𝐦𝐞𝐫𝐠𝐞_𝐩𝐝𝐟𝐬.𝐭𝐱𝐭              |  A web-browser shows it 
+                                        ╰─────────────────────────────────╯  as a search suggestion
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+                                        
