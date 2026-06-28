@@ -71,7 +71,7 @@ the name is htdx
    I need a better search method             press TAB to query                                     H̲ow t̲o d̲o X̲. 
    Spent time to make a CLI tool        ╭──────────┼──────────────────────╮             
    It works offline, and it uses        │ $ htdx "ocr                     │  
-   a full text-search. 'Tis nice       🮣┤ ocr_image.txt  𝐢𝐦𝐚𝐠𝐞_𝐭𝐨_𝐩𝐝𝐟.𝐭𝐱𝐭 │  
+   a full text-search. 'Tis nice       🮣┤ ocr_image.txt  𝗶𝗺𝗮𝗴𝗲_𝘁𝗼_𝗽𝗱𝗳.𝘁𝘅𝘁 │  
    and ergonomic to use. It uses       🯗╰────────────────────────┼────────╯
    ZSH completions: look at this ○————🯑                    Here you get suggestions
    TUI was overcomplicated to do                           TAB to cycle though them 
@@ -83,9 +83,9 @@ the name is htdx
    CLI is offline, now do online        ╭──────────────┼──────────────────╮
    I've Added OpenSearch support  🯁🯂🯃   │ ⬅ ➡ ⟳ |⌕| @htdx ocr           ➡ |
    with a full-text query in URL        ├─────────────────────────────────┤
-                                        │   ⌕ 𝐢𝐦𝐚𝐠𝐞_𝐭𝐨_𝐩𝐝𝐟.𝐭𝐱𝐭            |  A small server returns
-                                        │   ⌕ 𝐜𝐨𝐦𝐩𝐫𝐞𝐬𝐬_𝐨𝐩𝐭𝐢𝐦𝐢𝐳𝐞_𝐩𝐝𝐟.𝐭𝐱𝐭   ┼  full-text query result
-                                        │   ⌕ 𝐦𝐞𝐫𝐠𝐞_𝐩𝐝𝐟𝐬.𝐭𝐱𝐭              |  A web-browser shows it 
+                                        │   ⌕ 𝗶𝗺𝗮𝗴𝗲_𝘁𝗼_𝗽𝗱𝗳.𝘁𝘅𝘁            |  A small server returns
+                                        │   ⌕ 𝗰𝗼𝗺𝗽𝗿𝗲𝘀𝘀_𝗼𝗽𝘁𝗶𝗺𝗶𝘇𝗲_𝗽𝗱𝗳.𝘁𝘅𝘁   ┼  full-text query result
+                                        │   ⌕ 𝗺𝗲𝗿𝗴𝗲_𝗽𝗱𝗳𝘀.𝘁𝘅𝘁              |  A web-browser shows it 
                                         ╰─────────────────────────────────╯  as a search suggestion
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
                                         
