@@ -12,6 +12,7 @@ async function loadDocuments() {
   try{
   const entries = await readdir(contentDir, {withFileTypes: true});
   const allowedExtensions = ['.txt', '.md', '.html']
+  const nonHTMLExtensions = allowedExtensions.filter((v)=>v != ".html")
 
   for (const entry of entries){
     if(!entry.isFile()) continue;
@@ -22,7 +23,14 @@ async function loadDocuments() {
     if (!allowedExtensions.includes(ext)) continue;
       const filePath = join(contentDir, entry.name);
       try {
-        const content = await readFile(filePath, 'utf-8');
+        let content = await readFile(filePath, 'utf-8');
+        if(nonHTMLExtensions.includes(ext)){
+          content = 
+          '<html><head><meta name="color-scheme" content="light dark"></head><body><pre style="word-wrap: break-word; white-space: pre;"></pre>'
+          + content
+          + '</pre></body></html>'
+        }
+
         docs[entry.name] = {
           name: displayName,
           content: content,
@@ -41,7 +49,7 @@ await loadDocuments();
 export async function GET(request) {
   const url = new URL(request.url);
   const query_url = url.searchParams.get('url');
-  const min_width = url.searchParams.get('minwidth');
+  const max_height = url.searchParams.get('maxheight');
   const max_width = url.searchParams.get('maxwidth');
   const format = url.searchParams.get('format');
 
@@ -78,14 +86,22 @@ export async function GET(request) {
     });
   }
 
+  let w = 400
+  if(max_width && Number.parseInt(max_width)){
+    w = Number.parseInt(max_width)
+  }
+  let h = 120
+  if(max_height && Number.parseInt(max_height)){
+    h = Number.parseInt(max_height)
+  }
 
   return new Response(JSON.stringify({
     "version":"1.0",
     "type":"rich",
     "title":res.name,
     "html":res.content,
-    "width": 100,
-    "height": 200
+    "width": w,
+    "height": h
   }), {
     status: 200,
     headers: { 'Content-Type': 'application/json',     'Access-Control-Allow-Origin': '*' },
