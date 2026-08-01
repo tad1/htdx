@@ -8,5 +8,16 @@
       "destination": "/content/:path",
       "permanent": true
     }
+  ],
+  "headers": [
+    {
+      "source": "/content/:path",
+      "headers":[
+        {
+          "key": "Link",
+          "value" : "https://htdx.tad1.dev/api/oembed/?url=https://htdx.tad1.dev/content/:path; rel=\"alternate\"; type=\"application/json+oembed\""
+        }
+      ]
+    }
   ]
 }
