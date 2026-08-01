@@ -15,7 +15,7 @@
       "headers":[
         {
           "key": "Link",
-          "value" : "https://htdx.tad1.dev/api/oembed/?url=https://htdx.tad1.dev/content/:path; rel=\"alternate\"; type=\"application/json+oembed\""
+          "value" : "https://htdx.tad1.dev/api/oembed/?url=https%3A%2F%2Fhtdx.tad1.dev%2Fcontent%2F:path; rel=\"alternate\"; type=\"application/json+oembed\""
         }
       ]
     }
