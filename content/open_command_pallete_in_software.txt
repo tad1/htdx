@@ -4,3 +4,4 @@ Krita - Ctrl + Enter
 VS Code - Ctrl + Shift + P
 Sublime - Ctrl + Shift + P
 Kate - Ctrl + Alt + I
+Blender - F3
