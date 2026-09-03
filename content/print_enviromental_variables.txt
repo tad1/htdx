@@ -1,0 +1,8 @@
+printenv
+
+# print all
+# alternatively use `set`
+
+printenv VARIABLE
+
+# print specyfic variable
