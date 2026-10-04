@@ -1,0 +1,7 @@
+| xclip -selection clipboard
+
+# or
+xclip -selection clipboard < file.txt
+
+# to read clipboard
+xclip -selection clipboard -o
